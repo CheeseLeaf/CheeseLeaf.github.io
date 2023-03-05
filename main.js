@@ -14,5 +14,5 @@ setInterval(function() {
     var elapsedSeconds = Math.floor((Date.now() - startTime) / 1000);
 
     // Update the counter text
-    counter.textContent = "page not responding for : " + elapsedSeconds + " seconds";
+    counter.textContent = "Page not responding for " + elapsedSeconds + " seconds";
 }, 1000);
